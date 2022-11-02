@@ -53,7 +53,7 @@
     overflow: auto;
     transform: translateY(100%);
     transition: transform var(--transition-time);
-    .portfolio-link:hover & {
+    .portfolio-link:hover & , .portfolio-link:focus & {
             transform: translateY(0);
         }
 }

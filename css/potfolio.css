@@ -287,7 +287,7 @@ body {
   transform: translateY(100%);
   transition: transform var(--transition-time);
 }
-.portfolio-link:hover .portfolio-cover-text {
+.portfolio-link:hover .portfolio-cover-text, .portfolio-link:focus .portfolio-cover-text {
   transform: translateY(0);
 }
 
